@@ -115,6 +115,24 @@
   z-index: 1;
 }
 
+.header__hours {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: "Inter";
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 20px;
+ color: #838383
+}
+
+.header__paragraph {
+  margin: 0;
+  line-height: 20px;
+
+}
+
 .header__footer_list {
   list-style-type: none;
   position: absolute;
@@ -125,9 +143,17 @@
 }
 
 .header__footer_address {
+  display: flex;
+  justify-content: flex-end;
   position: absolute;
   bottom: 40px;
   right: 80px;
+  font-family: "Inter";
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 20px;
+ color: #838383
 }
 
 .recipes {
