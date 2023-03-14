@@ -326,8 +326,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 20px;
 margin-left: 60px;
-top: 32px;
-bottom: 32x;
+margin-top: 32px;
 border: none;
 border-radius: 4px;
 background-color:#2f80ed ;
@@ -335,5 +334,5 @@ color: #ffffff;
 }
 
 .form__button:hover {
-  opacity: smooth;
+  opacity:
 }
