@@ -1,5 +1,4 @@
 .recipes {
-    height: 100vh;
     background-color: #0a2750;
     background-image: url(../images/background_recipes.svg);
     background-repeat: no-repeat;
@@ -17,6 +16,7 @@
     max-width: 580px;
     padding-top: 100px;
     margin-left: 80px;
+    margin: 0%;
   }
   
   .recipes__subtitle {
@@ -29,6 +29,7 @@
     max-width: 438px;
     margin-left: 80px;
     margin-top: 24px;
+    margin: 0%;
   }
   
   .recipes__videos {
@@ -43,6 +44,8 @@
   }
   
   .recipes__iframe {
+    display: block;
+    border: none;
     width: 480px;
     height: 273px;
   }
