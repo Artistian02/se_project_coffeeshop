@@ -29,7 +29,7 @@
 }
 
 .card__list-item:last-of-type {
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .card__list-divider {
@@ -38,7 +38,7 @@
   height: 1px;
   margin: 0 10px;
   flex-grow: 1;
-  border-bottom: solid;
   margin-left: 8px;
   margin-right: 8px;
+  background-color: solid;
 }
