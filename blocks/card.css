@@ -3,12 +3,12 @@
 }
 
 .card__title {
-margin: 0 0 32px;
+margin: 0;
+padding-bottom: 32px;
 font-family: "Inter", Arial, sans-serif;
 font-weight: bold;
 font-size: 20px;
 line-height: 30px;
-
 }
 
 .card__unordered-list {
@@ -17,16 +17,22 @@ line-height: 30px;
   }
 
 .card__list-item {
- margin-bottom: 16px;
  display: flex;
  font-family: "Noto Serif", "Times New Roman", serif;
+ font-style: normal;
  font-weight: normal;
  font-size: 16px;
  line-height: 20px;
+ list-style-type: none;
+padding-bottom: 16px;
 }
 
+.card__list-item:last-of-type {
+  padding-bottom: 0;
+}
 
 .card__list-divider {
+margin: 0 10px;
 flex-grow: 1;
 border-bottom: solid;  
 }

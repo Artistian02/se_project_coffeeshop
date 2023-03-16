@@ -28,6 +28,7 @@
   position: relative;
   bottom: 7px;
   margin-top: 0%;
+  padding: 0;
   }
   
   .form__input {
@@ -90,3 +91,6 @@
     z-index: 1;
   }
   
+  .form__label_type_checkbox {
+padding: 0;
+  }
