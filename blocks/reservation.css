@@ -9,8 +9,8 @@
 }
 
 .reservation__title {
-    display: flexbox;
-    justify-content: center;
+   display: flex;
+   justify-content: center;
     margin: 0 0 80px;
     font-family: Inter;
     font-style: normal;
