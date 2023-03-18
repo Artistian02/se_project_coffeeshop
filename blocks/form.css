@@ -57,6 +57,7 @@
   }
   
   .form__button {
+  cursor: pointer;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
