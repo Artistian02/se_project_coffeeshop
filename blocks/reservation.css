@@ -5,12 +5,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0 120px;
+    align-items: center;
 }
 
 .reservation__title {
-   display: flex;
-   justify-content: center;
     margin: 0 0 80px;
     font-family: Inter;
     font-style: normal;
@@ -20,7 +21,7 @@
     }
     
     .reservation__form {
-      justify-content: center;
-      flex-direction: column;
+      width: 100%;
+      max-width: 385px;
     }
     
