@@ -70,6 +70,7 @@
   width: 100%;
   padding-top: 32px;
   padding-bottom: 32px;
+  transition: all;
   }
   
   .form__button:hover {
