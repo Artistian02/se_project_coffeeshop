@@ -27,11 +27,12 @@
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
-
     font-size: 16px;
     line-height: 20px;
     margin-top: 0;
     margin-bottom: 20px;
+    display:flex;
+    justify-content: end;
   }
   
   .footer__list {
@@ -45,10 +46,14 @@
   
   .footer__list-item {
     padding-bottom: 16px;
+    display: flex;
+    justify-content: end;
   }
   
   .footer__list-item:last-of-type {
     padding-bottom: 0;
+    display: flex;
+    justify-content: end;
   }
   
   .footer__social-link {
@@ -60,6 +65,8 @@
     line-height: 20px;
     text-decoration: none;
     transition: color 0.3s linear;
+    display: flex;
+    justify-content: end;
   }
   
   .footer__social-link:hover {

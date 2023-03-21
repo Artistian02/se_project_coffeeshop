@@ -80,6 +80,8 @@
   width: 100%;
   z-index: 1;
   bottom: 40px;
+  padding:20px;
+  box-sizing: border-box;
 }
 
 .header__hours {
