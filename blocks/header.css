@@ -35,7 +35,7 @@
   font-size: 60px;
   line-height: 72px;
   margin-bottom: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 .header__span-accent {
@@ -58,7 +58,7 @@
   line-height: 30px;
   margin-left: 80px;
   margin-bottom:0;
-  z-index: 1;
+  z-index: 2;
   position: relative;
 }
 
@@ -84,7 +84,7 @@
   color: #838383;
   position: absolute;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   bottom: 40px;
   box-sizing: border-box;
 }
