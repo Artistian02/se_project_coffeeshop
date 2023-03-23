@@ -17,6 +17,7 @@
   max-width: 580px; 
   padding-top: 100px; 
   margin-left: 80px; 
+  margin: 0;
 } 
 
 .recipes__subtitle { 
@@ -29,6 +30,7 @@
   max-width: 438px; 
   margin-left: 80px; 
   margin-top: 24px; 
+  margin-bottom: 0;
 } 
 
 .recipes__videos { 
@@ -67,5 +69,6 @@
   line-height: 30px; 
   color: #ffffff;
   margin-bottom: 0; 
+  margin: 0;
 } 
   
